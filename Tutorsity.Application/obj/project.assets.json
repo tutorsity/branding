@@ -693,11 +693,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lingana\\source\\repos\\tutorsity\\Tutorsity.Application\\Tutorsity.Application.csproj",
+      "projectUniqueName": "C:\\tutorsity\\branding\\Tutorsity.Application\\Tutorsity.Application.csproj",
       "projectName": "Tutorsity.Application",
-      "projectPath": "C:\\Users\\lingana\\source\\repos\\tutorsity\\Tutorsity.Application\\Tutorsity.Application.csproj",
+      "projectPath": "C:\\tutorsity\\branding\\Tutorsity.Application\\Tutorsity.Application.csproj",
       "packagesPath": "C:\\Users\\lingana\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lingana\\source\\repos\\tutorsity\\Tutorsity.Application\\obj\\",
+      "outputPath": "C:\\tutorsity\\branding\\Tutorsity.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

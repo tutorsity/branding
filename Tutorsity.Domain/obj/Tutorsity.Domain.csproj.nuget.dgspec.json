@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lingana\\source\\repos\\tutorsity\\Tutorsity.Domain\\Tutorsity.Domain.csproj": {}
+    "C:\\tutorsity\\branding\\Tutorsity.Domain\\Tutorsity.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lingana\\source\\repos\\tutorsity\\Tutorsity.Domain\\Tutorsity.Domain.csproj": {
+    "C:\\tutorsity\\branding\\Tutorsity.Domain\\Tutorsity.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lingana\\source\\repos\\tutorsity\\Tutorsity.Domain\\Tutorsity.Domain.csproj",
+        "projectUniqueName": "C:\\tutorsity\\branding\\Tutorsity.Domain\\Tutorsity.Domain.csproj",
         "projectName": "Tutorsity.Domain",
-        "projectPath": "C:\\Users\\lingana\\source\\repos\\tutorsity\\Tutorsity.Domain\\Tutorsity.Domain.csproj",
+        "projectPath": "C:\\tutorsity\\branding\\Tutorsity.Domain\\Tutorsity.Domain.csproj",
         "packagesPath": "C:\\Users\\lingana\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lingana\\source\\repos\\tutorsity\\Tutorsity.Domain\\obj\\",
+        "outputPath": "C:\\tutorsity\\branding\\Tutorsity.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
