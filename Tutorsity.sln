@@ -22,7 +22,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tutorsity.Application", "Tu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tutorsity.Domain", "Tutorsity.Domain\Tutorsity.Domain.csproj", "{534BFEDA-2C9D-46D8-8E56-818DD0FC0672}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tutorsity.Web", "Tutorsity.Web\Tutorsity.Web.csproj", "{32BF1367-1287-4904-96D8-ECC512054971}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tutorsity.Web", "Tutorsity.Web\Tutorsity.Web.csproj", "{32BF1367-1287-4904-96D8-ECC512054971}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tutorsity.Common", "Tutorsity.Common\Tutorsity.Common.csproj", "{39458803-DEBD-4677-9E71-025A8AF12999}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -42,6 +44,10 @@ Global
 		{32BF1367-1287-4904-96D8-ECC512054971}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{32BF1367-1287-4904-96D8-ECC512054971}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{32BF1367-1287-4904-96D8-ECC512054971}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39458803-DEBD-4677-9E71-025A8AF12999}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39458803-DEBD-4677-9E71-025A8AF12999}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39458803-DEBD-4677-9E71-025A8AF12999}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39458803-DEBD-4677-9E71-025A8AF12999}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -54,6 +60,7 @@ Global
 		{3B4466C4-7503-4931-BDDF-BD7E159C4B77} = {B352F7FD-D953-4BCF-AF5F-4E196EC2135B}
 		{534BFEDA-2C9D-46D8-8E56-818DD0FC0672} = {B352F7FD-D953-4BCF-AF5F-4E196EC2135B}
 		{32BF1367-1287-4904-96D8-ECC512054971} = {BCA44D47-C821-417D-BF23-B7DF7A1BABA2}
+		{39458803-DEBD-4677-9E71-025A8AF12999} = {7D68B785-B680-4B9C-BD0C-C6F8D45AEA80}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7D52C5D3-5C0F-4ADF-85A4-FBBF60F4E2DD}
