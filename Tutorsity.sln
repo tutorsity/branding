@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29009.5
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{83D9278F-ADC1-4966-9359-AE67BC76631E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{DBE894F0-95B0-4302-BCCB-8F20A1D4140D}"
+	ProjectSection(SolutionItems) = preProject
+		ReadMe.md = ReadMe.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{BCA44D47-C821-417D-BF23-B7DF7A1BABA2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{B352F7FD-D953-4BCF-AF5F-4E196EC2135B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{A1F81E21-CD37-4E1F-9003-B85D07811170}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{7D68B785-B680-4B9C-BD0C-C6F8D45AEA80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tutorsity.Application", "Tutorsity.Application\Tutorsity.Application.csproj", "{3B4466C4-7503-4931-BDDF-BD7E159C4B77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tutorsity.Domain", "Tutorsity.Domain\Tutorsity.Domain.csproj", "{534BFEDA-2C9D-46D8-8E56-818DD0FC0672}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3B4466C4-7503-4931-BDDF-BD7E159C4B77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B4466C4-7503-4931-BDDF-BD7E159C4B77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B4466C4-7503-4931-BDDF-BD7E159C4B77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B4466C4-7503-4931-BDDF-BD7E159C4B77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{534BFEDA-2C9D-46D8-8E56-818DD0FC0672}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{534BFEDA-2C9D-46D8-8E56-818DD0FC0672}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{534BFEDA-2C9D-46D8-8E56-818DD0FC0672}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{534BFEDA-2C9D-46D8-8E56-818DD0FC0672}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BCA44D47-C821-417D-BF23-B7DF7A1BABA2} = {83D9278F-ADC1-4966-9359-AE67BC76631E}
+		{B352F7FD-D953-4BCF-AF5F-4E196EC2135B} = {83D9278F-ADC1-4966-9359-AE67BC76631E}
+		{A1F81E21-CD37-4E1F-9003-B85D07811170} = {83D9278F-ADC1-4966-9359-AE67BC76631E}
+		{7D68B785-B680-4B9C-BD0C-C6F8D45AEA80} = {83D9278F-ADC1-4966-9359-AE67BC76631E}
+		{3B4466C4-7503-4931-BDDF-BD7E159C4B77} = {B352F7FD-D953-4BCF-AF5F-4E196EC2135B}
+		{534BFEDA-2C9D-46D8-8E56-818DD0FC0672} = {B352F7FD-D953-4BCF-AF5F-4E196EC2135B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7D52C5D3-5C0F-4ADF-85A4-FBBF60F4E2DD}
+	EndGlobalSection
+EndGlobal
