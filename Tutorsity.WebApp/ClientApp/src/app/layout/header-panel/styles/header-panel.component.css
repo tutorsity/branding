@@ -1,7 +1,15 @@
-a.header-panel-brand {
-  white-space: normal;
-  text-align: center;
-  word-break: break-all;
+.header-panel-brand {
+  background-color: #639;
+  padding: 15px;
+  color: #fff;
+  box-shadow: 0 3px 10px #004d40;
+  z-index: 100;
+}
+
+.header-panel-container {
+  box-shadow: 0 0px 10px #004d40;
+  z-index: 100;
+  height: auto !important;
 }
 
 html {
@@ -16,11 +24,4 @@ html {
 
 .box-shadow {
   box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
-}
-
-.avatar {
-  background-color: #639;
-  padding: 15px;
-  color: #fff;
-  box-shadow: 0 3px 10px #004d40;
 }
