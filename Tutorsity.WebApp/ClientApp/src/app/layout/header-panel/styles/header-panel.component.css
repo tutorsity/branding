@@ -17,3 +17,10 @@ html {
 .box-shadow {
   box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
 }
+
+.avatar {
+  background-color: #639;
+  padding: 15px;
+  color: #fff;
+  box-shadow: 0 3px 10px #004d40;
+}
