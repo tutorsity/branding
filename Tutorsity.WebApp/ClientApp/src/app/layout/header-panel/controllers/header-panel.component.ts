@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-nav-menu',
-  templateUrl: './nav-menu.component.html',
-  styleUrls: ['./nav-menu.component.css']
+  selector: 'header-panel',
+  templateUrl: '../views/header-panel.component.html',
+  styleUrls: ['../styles/header-panel.component.css']
 })
-export class NavMenuComponent {
+export class HeaderPanelComponent {
   isExpanded = false;
 
   collapse() {

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Tutorsity.WebUI.Controllers
+namespace Tutorsity.WebApp.Controllers
 {
     [Route("api/[controller]")]
     public class SampleDataController : Controller

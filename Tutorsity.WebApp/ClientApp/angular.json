@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "Tutorsity.WebUI": {
+    "Tutorsity.WebApp": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -52,18 +52,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "Tutorsity.WebUI:build"
+            "browserTarget": "Tutorsity.WebApp:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "Tutorsity.WebUI:build:production"
+              "browserTarget": "Tutorsity.WebApp:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "Tutorsity.WebUI:build"
+            "browserTarget": "Tutorsity.WebApp:build"
           }
         },
         "test": {
@@ -122,7 +122,7 @@
         }
       }
     },
-    "Tutorsity.WebUI-e2e": {
+    "Tutorsity.WebApp-e2e": {
       "root": "e2e/",
       "projectType": "application",
       "architect": {
@@ -130,7 +130,7 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "Tutorsity.WebUI:serve"
+            "devServerTarget": "Tutorsity.WebApp:serve"
           }
         },
         "lint": {
@@ -145,5 +145,5 @@
       }
     }
   },
-  "defaultProject": "Tutorsity.WebUI"
+  "defaultProject": "Tutorsity.WebApp"
 }
