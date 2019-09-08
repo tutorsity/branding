@@ -9,11 +9,13 @@ import { HomeComponent } from './home/home.component';
 import { CounterComponent } from './counter/counter.component';
 import { FetchDataComponent } from './fetch-data/fetch-data.component';
 import { HeaderPanelComponent } from './layout/header-panel/controllers/header-panel.component';
+import { FooterPanelComponent } from './layout/footer-panel/controllers/footer-panel.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderPanelComponent,
+    FooterPanelComponent,
     HomeComponent,
     CounterComponent,
     FetchDataComponent
