@@ -25,19 +25,26 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Remove="ClientApp\src\app\business\home\controllers\home-gallery.component.ts" />
+    <None Remove="ClientApp\src\app\business\home\controllers\home.component.ts" />
+    <None Remove="ClientApp\src\app\business\home\home.module.ts" />
     <None Remove="ClientApp\src\app\layout\footer-panel\controllers\footer-panel.component.ts" />
     <None Remove="ClientApp\src\app\layout\footer-panel\styles\footer-panel.component.css" />
     <None Remove="ClientApp\src\app\layout\header-panel\controllers\header-panel.component.ts" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="ClientApp\src\app\business\home\" />
     <Folder Include="ClientApp\src\app\core\" />
     <Folder Include="ClientApp\src\app\layout\header-panel\tests\" />
     <Folder Include="ClientApp\src\app\layout\main-panel\" />
   </ItemGroup>
 
   <ItemGroup>
+    <TypeScriptCompile Include="ClientApp\src\app\business\home\controllers\home.component.ts">
+      <SubType>Code</SubType>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="ClientApp\src\app\business\home\controllers\home-gallery.component.ts" />
+    <TypeScriptCompile Include="ClientApp\src\app\business\home\home.module.ts" />
     <TypeScriptCompile Include="ClientApp\src\app\layout\footer-panel\controllers\footer-panel.component.ts" />
     <TypeScriptCompile Include="ClientApp\src\app\layout\footer-panel\styles\footer-panel.component.css" />
     <TypeScriptCompile Include="ClientApp\src\app\layout\header-panel\controllers\header-panel.component.ts" />

@@ -5,18 +5,18 @@ import { HttpClientModule } from '@angular/common/http';
 import { RouterModule } from '@angular/router';
 
 import { AppComponent } from './app.component';
-import { HomeComponent } from './home/home.component';
 import { CounterComponent } from './counter/counter.component';
 import { FetchDataComponent } from './fetch-data/fetch-data.component';
 import { HeaderPanelComponent } from './layout/header-panel/controllers/header-panel.component';
 import { FooterPanelComponent } from './layout/footer-panel/controllers/footer-panel.component';
+import { HomeComponent } from './business/home/controllers/home.component';
+import { HomeModule } from './business/home/home.module';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderPanelComponent,
     FooterPanelComponent,
-    HomeComponent,
     CounterComponent,
     FetchDataComponent
   ],
@@ -28,7 +28,8 @@ import { FooterPanelComponent } from './layout/footer-panel/controllers/footer-p
       { path: '', component: HomeComponent, pathMatch: 'full' },
       { path: 'counter', component: CounterComponent },
       { path: 'fetch-data', component: FetchDataComponent },
-    ])
+    ]),
+      HomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
